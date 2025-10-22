@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./main.js"></script>
+    </head>
+
+    <body>
+<header id="top">
+    <h1>Book Finder</h1>
+    <nav>
+        <ul>
+            <li><a href="#search">Search Books</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+                  
+       <main class="container">
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Enter book title or author" required>  
+            <button type="submit">Search</button>
+        </form>     
+
+        <div id="status" aria-live="polite"></div>
+       <div id="results"></div>
+    
+       </main>  
+
+    <section class="container" id="favorites">
+        <h2>favorite</h2>
+        <div id="fav-results"></div>
+    </section>
+
+       <footer>
+        <small > open library </small>
+       </footer>
+ 
+            
+    </body>
+
+</html>
+
+
+
+
+
+
+
