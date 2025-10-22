@@ -33,3 +33,6 @@ You can search by book title or author, view details, and add books to your favo
 
 ---
 
+## 🌐 Live Demo
+You can try the project live here:  
+👉 [Book Finder Live Demo] (https://hadidreem17.github.io/Book-Finder/)
